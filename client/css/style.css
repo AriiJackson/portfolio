@@ -546,6 +546,7 @@ html {
 
 .curriculum .row {
     display: flex;
+    justify-content: space-between;
 }
 
 .curriculum .row .col {
@@ -596,3 +597,54 @@ html {
     line-height: 24px;
 }
 
+.curriculum .row .left {
+    border-right: 2px solid #1CB698;
+    margin-right: 20px;
+}
+
+.curriculum .row .right {
+    border-left: 2px solid #1CB698;
+    margin-left: 20px;
+}
+
+.curriculum .row .item .conector-l {
+    height: 2px;
+    background-color: #1CB698;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    right: -47px;
+    z-index: 5;
+}
+
+.curriculum .row .item .conector-l .circulo-l {
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #1CB698;
+    float: right;
+    position: relative;
+    bottom: 4px;
+}
+
+.curriculum .row .item .conector-r {
+    height: 2px;
+    background-color: #1CB698;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    left: -47px;
+    z-index: 5;
+}
+
+.curriculum .row .item .conector-r .circulo-r {
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #1CB698;
+    float: left;
+    position: relative;
+    bottom: 4px;
+}
