@@ -497,7 +497,7 @@ html {
 
 .skills .skill .flexibility {
     width: 0%;
-    animation: 2s flexibily forwards;
+    animation: 2s flexibility forwards;
 }
 
 @keyframes flexibility {
@@ -870,7 +870,8 @@ footer .up {
         display: block;
     }
 
-    nav .responsive {
+    /* nav.responsive */
+    nav.responsive {
         display: block;
         position: absolute;
         right: 0;
@@ -879,11 +880,11 @@ footer .up {
         width: 180px;
     }
 
-    nav .responsive ul {
+    nav.responsive ul {
         display: block !important;
     }
 
-    nav .responsive ul li {
+    nav.responsive ul li {
         border-bottom: 1px solid #fff;
         padding: 10px 0; 
     }

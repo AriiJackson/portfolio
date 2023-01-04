@@ -16,17 +16,17 @@
                 <div class="logo">
                     <a href="#">Ariana</a>
                 </div>
-                <nav id="nav">
+                <nav id="nav" class="responsive">
                     <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About Me</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#curriculum">Curriculum</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#home" onclick="select()">Home</a></li>
+                        <li><a href="#about" onclick="select()">About Me</a></li>
+                        <li><a href="#skills" onclick="select()">Skills</a></li>
+                        <li><a href="#curriculum" onclick="select()">Curriculum</a></li>
+                        <li><a href="#portfolio" onclick="select()">Portfolio</a></li>
+                        <li><a href="#contact" onclick="select()">Contact</a></li>
                     </ul>
                 </nav>
-                <div class="nav-responsive">
+                <div class="nav-responsive" onclick="showMenu()">
                     <i class="fa-solid fa-bars"></i>
                 </div>
             </header>
@@ -103,7 +103,7 @@
                     </div>
                 </div>
 
-                <button>
+                <button download="./assets/CV.docx">
                     Download CV <i class="fa-solid fa-download"></i>
                     <span class="overlay"></span>
                 </button>
@@ -444,5 +444,7 @@
                 <a href="https://www.instagram.com/ariijackson/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             </div>
         </footer>
+
+        <script src="/client/js/script.js"></script>
     </body>
 </html>
