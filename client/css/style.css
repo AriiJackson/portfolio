@@ -246,6 +246,11 @@ html {
     width: 100%;
 }
 
+.about button a {
+    text-decoration: none;
+    color: #fff;
+}
+
 /* SKILLS */
 .skills {
     background: #252525;
